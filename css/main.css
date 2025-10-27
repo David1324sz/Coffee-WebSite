@@ -130,6 +130,7 @@ header {
 }
 
 .cart {
+  font-family: Poppins;
   width: 25%;
   background-color: #C08267;
   border-radius: 5px;
@@ -176,5 +177,92 @@ header {
 }
 
 .log-container {
-  width: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.star {
+  width: 205px;
+  height: 205px;
+  margin-top: 50px;
+}
+
+.nes {
+  width: 290px;
+  height: 163px;
+  margin-top: 71px;
+}
+
+.Tim {
+  width: 282px;
+  height: 282px;
+  margin-top: 12px;
+}
+
+.Don {
+  width: 231px;
+  height: 292px;
+  margin-top: 7px;
+}
+
+footer {
+  background-color: #C08267;
+}
+
+.cocteil-footer {
+  margin: 33px 37px 57px 37px;
+  text-align: center;
+  border: none;
+  border-top: 5px solid #FFFADA;
+}
+
+.diviz-footer {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: Poppins;
+  color: #FFFADA;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.infor {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hight {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.sml-inf {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.sml-inf a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+hr {
+   margin: 33px 37px 57px 37px;
+  border: 3px solid #FFFFFF;
+}
+
+.fotre {
+  align-items: center;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.lst-inf {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: 21px;
+  color: #FFFFFF;
 }
